@@ -7,6 +7,8 @@ This is a scripted native Houdini radial menu which changes the active renderer 
 ## Usage
 Select the 'Hydra Renderers' option from the menu dropdown at the top of the screen (located in the 'Utility' section), and press 'C' key with your cursor in the 3D Viewport in order to access the menu. 
 
+![hydra_renderers_dropdown](https://github.com/alexmajewski/hydra-renderers-radial-menu/assets/77795178/0a9096e7-64d0-4ee6-8e46-a34de1ea9116)
+
 You can also enter Edit Radial Menus window available in the dropdown and set a custom hotkey.
 
 ## Installing as a Package
