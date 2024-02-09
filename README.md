@@ -2,6 +2,8 @@
 
 This is a scripted native Houdini radial menu which changes the active renderer in Solaris.
 
+![hydra_renderers_example](https://github.com/alexmajewski/hydra-renderers-radial-menu/assets/77795178/8ef68a48-7252-4edb-93a8-f9ca451b29ea)
+
 ## Usage
 Select the 'Hydra Renderers' option from the menu dropdown at the top of the screen (located in the 'Utility' section), and press 'C' key with your cursor in the 3D Viewport in order to access the menu. 
 
