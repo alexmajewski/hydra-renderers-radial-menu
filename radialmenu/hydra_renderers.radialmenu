@@ -1,0 +1,9 @@
+{
+	"fileversion":"19.5.303",
+	"name":"hydra_renderers",
+	"categories":"Utility",
+	"pane":"scene",
+	"label":"Hydra Renderers",
+	"type":"script_submenu",
+	"script":"# Created by Alex Majewski\n# Version 1.0.0\n# Project can be found at: \n# https://github.com/alexmajewski/hydra-renderers-radial-menu\n\nscene_viewer = hou.ui.paneTabOfType(hou.paneTabType.SceneViewer)\nis_lops = scene_viewer.isViewingSceneGraph()\n\nslots = ['n', 'e', 's', 'w', 'ne', 'se', 'sw', 'nw']\n\ndef construct_rmenu(delegates_list):\n    menu = {}\n    delegates = delegates_list[:8]\n    for i, delegate in enumerate(delegates):\n        menu[slots[i]] = {\n            'type':'script_action',\n            'label': delegate,\n            'icon':'',\n            'script':lambda renderer=delegate, **kwargs: scene_viewer.setHydraRenderer(renderer)\n        }\n    return menu\n    \nif is_lops:\n    renderers = list(scene_viewer.hydraRenderers())\n    rmenu = construct_rmenu(renderers)\n    radialmenu.setRadialMenu(rmenu)\n    \n"
+}

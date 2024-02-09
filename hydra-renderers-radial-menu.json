@@ -1,0 +1,8 @@
+{
+	"env": [{
+		"CAM_RMENU": "/home/xander/houdini_packages/hydra-renderers-radial-menu"
+	}],
+
+	"path": "$HYDRA_RMENU",
+	"package_path": "$HYDRA_RMENU"
+}
