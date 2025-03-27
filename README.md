@@ -11,9 +11,6 @@ Select the 'Solaris Renderers' option from the menu dropdown at the top of the s
 
 You can also enter Edit Radial Menus window available in the dropdown and set a custom hotkey.
 
-## Known issues
-When switching to a non-pathtraced renderer such as Houdini VK or Storm, the viewport will not update until you hover over a UI element, move the camera, or press Alt.
-
 ## Installation
 
 First, download the [latest release](https://github.com/alexmajewski/hydra-renderers-radial-menu/releases/latest).
